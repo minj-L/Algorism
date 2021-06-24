@@ -10,7 +10,7 @@ int Fibonacci(int n) // F(n) = F(n-2) + F(n-1), n > 2, F(0) = F(1) = 1
 
 void main() {
 	int n;
-	cout << "¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ";
+	cout << "ìˆ«ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ";
 	cin >> n;
-	cout << n << "¹øÂ° Fibonacci ¼ýÀÚ´Â = " << Fibonacci(n) << endl;
+	cout << n << "ë²ˆì§¸ Fibonacci ìˆ«ìžëŠ” = " << Fibonacci(n) << endl;
 }
