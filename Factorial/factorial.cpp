@@ -19,7 +19,7 @@ int factorial(int n)
 	else // if (n > 1)
 	{
 		//int prod = n * factorial(n - 1);
-		//return prod; ÀÌ µÎ ¹®Àåµµ ÇÑ ¹®ÀåÀ¸·Î ÁÙÀÏ ¼ö ÀÖ´Ù.
+		//return prod; ì´ ë‘ ë¬¸ì¥ë„ í•œ ë¬¸ì¥ìœ¼ë¡œ ì¤„ì¼ ìˆ˜ ìˆë‹¤.
 
 		return (n * factorial(n - 1));
 	}
@@ -27,7 +27,7 @@ int factorial(int n)
 
 void main() {
 	int n;
-	cout << "¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ";
+	cout << "ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ";
 	cin >> n;
 	cout << n <<"! = " << factorial(n) << endl;
 }
