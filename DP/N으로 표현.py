@@ -22,3 +22,5 @@ def solution(N, number):
                 return i
             S.append(case_set)
     return -1
+
+#
