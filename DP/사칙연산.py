@@ -17,3 +17,4 @@ def solution(arr):
             sum_res += int(arr[i])
     min_Max[1] += sum_res
     return min_Max[1]
+#
