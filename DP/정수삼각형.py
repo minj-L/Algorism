@@ -9,3 +9,4 @@ def solution(tri):
             dp[i + 1][j + 1] = max(dp[i + 1][j + 1], dp[i][j] + tri[i + 1][j + 1])
 
     return max(dp[-1])
+#
