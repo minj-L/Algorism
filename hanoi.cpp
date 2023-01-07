@@ -1,21 +1,21 @@
 #include <iostream> 
 using namespace std;
 
-int cnt = 0; // ÀÌµ¿ È½¼ö¿¡ ÀÌ¿ë.
+int cnt = 0; // ì´ë™ íšŸìˆ˜ì— ì´ìš©.
 
 void Hanoi(int n, char from, char temp, char to)
-// n : ¿ø¹İ°³¼ö, from : ¿ø·¡ À§Ä¡, temp : ÀÓ½Ã Àå¼Ò, to :¸ñÀûÁö
+// n : ì›ë°˜ê°œìˆ˜, from : ì›ë˜ ìœ„ì¹˜, temp : ì„ì‹œ ì¥ì†Œ, to :ëª©ì ì§€
 {
 	if (n == 1) {
 		++cnt;
-		cout << "¿øÆÇ 1À»" << from << "¿¡¼­ " << to << "·Î ÀÌµ¿\n";
+		cout << "ì›íŒ 1ì„" << from << "ì—ì„œ " << to << "ë¡œ ì´ë™\n";
 	}
 	else
 	{
-		Hanoi(n - 1, from, to, temp); //hanoi ÇÔ¼ö¸¦ Àç±ÍÇÏ°í ÀÖ´Ù A¿¡¼­ C·Î ÀÌµ¿
-		cout << "¿øÆÇ " << n << "À»" << from << "¿¡¼­ " << to << "·Î ÀÌµ¿\n";
+		Hanoi(n - 1, from, to, temp); //hanoi í•¨ìˆ˜ë¥¼ ì¬ê·€í•˜ê³  ìˆë‹¤ Aì—ì„œ Cë¡œ ì´ë™
+		cout << "ì›íŒ " << n << "ì„" << from << "ì—ì„œ " << to << "ë¡œ ì´ë™\n";
 		++cnt;
-		Hanoi(n - 1, temp, from, to); //B¿¡¼­ C·Î ÀÌµ¿
+		Hanoi(n - 1, temp, from, to); //Bì—ì„œ Cë¡œ ì´ë™
 	}
 
 }
@@ -23,12 +23,13 @@ void Hanoi(int n, char from, char temp, char to)
 
 void main()
 {
-	int n; //¿ø¹İÀÇ ¼ö
+	int n; //ì›ë°˜ì˜ ìˆ˜
 
-	cout << "¿ø¹İÀÇ °¹¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ";
+	cout << "ì›ë°˜ì˜ ê°¯ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ";
 	cin >> n;
 
-	Hanoi(n, 'A', 'B', 'C');    // n°³ÀÇ ¿ø¹İÀ» 'A'¿¡¼­ 'C'·Î ÀÌµ¿
+	Hanoi(n, 'A', 'B', 'C');    // nê°œì˜ ì›ë°˜ì„ 'A'ì—ì„œ 'C'ë¡œ ì´ë™
 
-	cout << "ÀüÃ¼ ¿ø¹İ ÀÌµ¿ ¼ö(¿ø¹İ¼ö : " << n << ") = " << cnt << endl;
+	cout << "ì „ì²´ ì›ë°˜ ì´ë™ ìˆ˜(ì›ë°˜ìˆ˜ : " << n << ") = " << cnt << endl;
 }
+//
