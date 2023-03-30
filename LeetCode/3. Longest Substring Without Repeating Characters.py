@@ -21,3 +21,5 @@ class Solution:
             used[char] = right
 
         return answer
+
+    # used two pointer
