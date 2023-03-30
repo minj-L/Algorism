@@ -23,3 +23,4 @@ class Solution:
         return answer
 
     # used two pointer
+    # enumerate() (0, somthing), (1, somthing), (2, somthing) 형태의 집합을 만들어줌
