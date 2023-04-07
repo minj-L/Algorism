@@ -12,3 +12,4 @@ def solution(sizes):
     
     answer = max(new_c) * max(new_r)
     return answer
+#
