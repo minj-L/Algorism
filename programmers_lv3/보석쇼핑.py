@@ -27,4 +27,4 @@ def solution(gems):
                 gem_dic[gems[right]] = 1 # 없으면 1 넣어주기
     print(gem_dic)
     return [answer[0]+1, answer[1]+1]
-#
+##
