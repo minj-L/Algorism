@@ -14,3 +14,4 @@ def solution(n, s):
         indexs -= 1
 
     return answer
+#
