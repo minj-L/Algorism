@@ -11,3 +11,4 @@ def n_cal(unknow):
         return unknow * n_cal(unknow-1)
 
 print(n_cal(n) // (n_cal(n-k)*n_cal(k)))
+#
