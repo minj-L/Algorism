@@ -21,3 +21,4 @@ res.append(lcm)
 
 for i in res:
     print(i)
+#
