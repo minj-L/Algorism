@@ -30,3 +30,4 @@ people = sorted(people)
 for i in range(n):
     print(people[i][0], end = " ")
     print(people[i][2])
+#
