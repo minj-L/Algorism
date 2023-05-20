@@ -38,3 +38,4 @@ def solution(a, b, g, s, w, t):
             start = mid + 1
         
     return answer
+#
