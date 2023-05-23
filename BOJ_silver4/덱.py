@@ -112,3 +112,4 @@ for i in range(n):
             print(d[len(d) - 1])
         else:
             print("-1")
+#
