@@ -38,3 +38,4 @@ class Solution:
             elif end-length-1 >=0 and s[end-length-1:end+1] == s[end-length-1:end+1][::-1]:
                 start, length = end-length-1, length+2
         return s[start:start+length]
+#
