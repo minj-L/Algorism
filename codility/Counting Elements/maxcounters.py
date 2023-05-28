@@ -35,3 +35,4 @@ def solution(N,A):
             max_val = max(max_val,counters[m])
         return counters
 print(solution(5, [3, 4, 4, 6, 1, 4, 4]))
+#
