@@ -12,3 +12,4 @@ for n in range(N):
         floor = h
         room -= 1
     print(floor * 100 + room)
+#
