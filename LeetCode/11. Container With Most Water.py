@@ -29,7 +29,7 @@ class Solution:
         #     return area
         # [4,3,2,1,4] testcase error
 
-        # 투 포인터를 사용해야 했다
+        ## 투 포인터를 사용해야 했다
 
         left = 0
         right = len(height) - 1
