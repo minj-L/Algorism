@@ -17,13 +17,17 @@
 # for b in arr:
 #     print(b)
 
-num_set = set(range(1, 10001))
-generated_num = set()
+number_set = set(range(1, 10001)) 
+# [] 배열에서 수생성 하는 것과 set의 차이
+# 여기서는 값을 더 쉽게 구하기 위해 집합 함수를 사용한 것이다.
+not_self_num = set()
 
 for i in range(1, 10001):
     for j in str(i):
         i += int(j)
-    generated_num.add(i)
-self_num = sorted(num_set - generated_num)
+    not_self_num.add(i)
+
+self_num = sorted(number_set - not_self_num)
+
 for i in self_num:
     print(i)
