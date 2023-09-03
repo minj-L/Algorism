@@ -9,5 +9,5 @@ if line % 2 == 0:
     b = (line - num) + 1
 else:
     a = (line - num) + 1
-    b = num
+    b = num 
 print( a, '/' , b ,sep='')
