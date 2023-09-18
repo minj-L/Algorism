@@ -12,5 +12,8 @@ def solution(n, s):
     for i in range(rem):
         result[i] += 1
 
-    return sorted(result)
+    return sorted
+    
+    
+    (result)
 print(solution(2, 9))
