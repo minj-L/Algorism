@@ -6,7 +6,7 @@ class Solution:
         
         def dfs(node):
             if node is not None:
-                dfs(node.left)
+                dfs(node.left) # 
                 reuslt.append(node.val)
                 dfs(node.right)
             
